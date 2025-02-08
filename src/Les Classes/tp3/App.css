@@ -1,0 +1,113 @@
+/* App.css */
+
+body {
+  background-image: url("./111.jpg"); /* Remplacez par le chemin de votre image */
+  background-size: cover; /* Couvre tout l'écran */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Pas de répétition */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: rgb(40, 40, 40); /* Couleur du texte principal */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Aligne les éléments au centre verticalement */
+  min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; /* Largeur maximale de la carte */
+  background-color: rgba(255, 255, 255, 0.153); /* Fond blanc transparent */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.772); /* Ombre pour la profondeur */
+  text-align: center; /* Centre le texte à l'intérieur de la carte */
+}
+
+h2 {
+  color: rgb(255, 255, 255); /* Couleur blanche pour le titre */
+  font-family: "Lobster", cursive; /* Police Lobster */
+  font-size: 28px;
+  font-weight: bold; /* Appliquer un style gras */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre textuelle */
+}
+
+.activite {
+  background-color: rgba(
+    182,
+    176,
+    164,
+    0.596
+  ); /* Fond jaune clair pour les activités */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+  transition: transform 0.2s; /* Transition pour l'effet de survol */
+}
+
+.activite:hover {
+  transform: scale(1.02); /* Agrandissement au survol */
+}
+
+h3 {
+  color: rgb(
+    255,
+    255,
+    255
+  ); /* Couleur jaune doré pour le titre des activités */
+  margin-bottom: 10px;
+  font-family: "Lobster", cursive; /* Police Lobster */
+  font-weight: bold; /* Appliquer un style gras */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349); /* Ombre légère pour le titre */
+}
+
+p {
+  color: rgb(0, 0, 0); /* Texte des activités en noir */
+  margin: 4px 0;
+  font-family: "Lato", sans-serif; /* Police Lato */
+  line-height: 1.5; /* Hauteur de ligne pour améliorer la lisibilité */
+  font-weight: bold; /* Appliquer un style gras */
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px; /* Espace entre les boutons */
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s; /* Transition pour couleur et effet de clic */
+}
+
+/* Styles spécifiques pour chaque bouton */
+button.ajouter {
+  background-color: rgb(220, 221, 217); /* Vert pâle */
+  color: black; /* Texte noir */
+}
+
+button.modifier {
+  background-color: rgb(130, 115, 86); /* Bleu clair */
+  color: black; /* Texte noir */
+}
+
+button.supprimer {
+  background-color: rgb(88, 94, 101); /* Rouge corail */
+  color: white; /* Texte blanc */
+}
+
+/* Effets au survol */
+button:hover {
+  filter: brightness(1.1); /* Éclaircit légèrement au survol */
+  transform: scale(1.05); /* Agrandit légèrement au survol */
+}
+
+button:active {
+  transform: scale(0.95); /* Effet d'enfoncement au clic */
+}
+
+.activite:last-child {
+  border-bottom: none; /* Pas de ligne pour le dernier élément */
+}

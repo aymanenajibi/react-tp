@@ -1,0 +1,8 @@
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+}

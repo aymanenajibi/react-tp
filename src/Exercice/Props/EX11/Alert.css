@@ -1,0 +1,19 @@
+.alert {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.alert-info {
+  background-color: #007bff; /* Bleu */
+}
+
+.alert-warning {
+  background-color: #ffc107; /* Jaune */
+  color: #212529; /* Texte sombre */
+}
+
+.alert-error {
+  background-color: #dc3545; /* Rouge */
+}
